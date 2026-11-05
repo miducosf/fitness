@@ -17,7 +17,7 @@
 <body>
   <div id="app">
     <header class="masthead">
-      <div class="brand"><div class="brand-glyph" aria-hidden="true">↗</div><div><div class="brand-name">AFTERNOON<span>PUMP</span></div><div class="brand-subtitle">YOUR POCKET GYM COACH</div></div></div>
+      <button class="brand" id="brand-home" type="button" aria-label="Go to workout home"><div class="brand-glyph" aria-hidden="true">↗</div><div><div class="brand-name">AFTERNOON<span>PUMP</span></div><div class="brand-subtitle">YOUR POCKET GYM COACH</div></div></button>
       <div class="brand-date" id="header-date"></div>
     </header>
     <main id="main" tabindex="-1" aria-live="off">
@@ -29,6 +29,7 @@
       <button class="nav-item" data-tab="settings" type="button" aria-label="Settings and backups"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 17h16M9 4v6m6 4v6"/></svg><span>Settings</span></button>
     </nav>
   </div>
+  <div id="overlay-root"></div>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
   <script src="./app.js" defer></script>
 </body>
