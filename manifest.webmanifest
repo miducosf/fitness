@@ -1,0 +1,15 @@
+{
+  "id": "./",
+  "name": "Afternoon Pump — Workout Companion",
+  "short_name": "Pump",
+  "description": "Guided workouts, weight and rep tracking, and rest timers.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#111919",
+  "theme_color": "#111919",
+  "icons": [
+    {"src":"./icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"./icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}
